@@ -1,0 +1,39 @@
+// --------------------------------------------
+// ### General
+// --------------------------------------------
+
+* {
+  @include defaultTransition;
+  box-sizing:border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  margin:0;
+  padding:0;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: map-get($body, bg);
+  font-family: map-get($body, fontFamily);
+  font-weight: map-get($body, fontWeight);
+  font-size: map-get($body, fontSize);
+  color: map-get($body, color);
+  height: 100vh;
+}
+
+// --------------------------------------------
+// ### Vanity
+// --------------------------------------------
+
+::selection {
+  color: inherit;
+  background: map-get($selection, bg);
+  text-shadow: none;
+}
+
+::-moz-selection {
+  color: inherit;
+  background: map-get($selection, bg);
+  text-shadow: none;
+}

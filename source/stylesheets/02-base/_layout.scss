@@ -1,0 +1,18 @@
+// --------------------------------------------
+// ### General
+// --------------------------------------------
+
+.l--bodyLayout {
+  @extend %flexboxGrid;
+}
+
+.l--content {
+  @extend %flexboxGrid__cell;
+  flex: 0 0 auto;
+}
+
+.l--sideNav {
+  @extend %flexboxGrid__cell;
+  flex: 0 0 auto;
+  display: flex;
+}

@@ -1,0 +1,11 @@
+%html
+  %head
+    = partial("partials/head")
+  %body.l--bodyLayout
+
+    .sideNav.l--sideNav
+      = partial("partials/sideNav")
+
+    %section.l--content
+      #main{:role => "main"}
+        = yield

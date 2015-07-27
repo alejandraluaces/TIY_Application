@@ -1,0 +1,16 @@
+// --------------------------------------------
+// ### Flexbox grid
+// --------------------------------------------
+
+%flexboxGrid {
+  display: flex;
+  flex-direction: row;
+
+  @media screen and (min-width: 500px) {
+    flex-direction: column;
+  }
+}
+
+%flexboxGrid__cell {
+  flex: 1;
+}

@@ -1,0 +1,15 @@
+// --------------------------------------------
+// ### General
+// --------------------------------------------
+
+ul > li {
+  display: inline;
+  margin-right: $gutter;
+  &:last-child {
+    margin: 0;
+  }
+}
+
+li {
+  list-style-type: none;
+}
