@@ -13,7 +13,6 @@ page "*", layout: "layout"
 # Output
 ########################################################################
 
-activate :syntax
 activate :livereload
 
 activate :autoprefixer do |config|
