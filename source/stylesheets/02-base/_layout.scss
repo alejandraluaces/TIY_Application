@@ -36,7 +36,8 @@
 .wrapper {
   max-width: 43.75em;
   min-width: 20em;
-  padding: $gutter;
+  padding: $gutter*2;
+  margin: 0 auto;
 }
 
 #main {
