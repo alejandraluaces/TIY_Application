@@ -39,4 +39,15 @@ article {
     margin-left: 1em;
     font-style: italic;
   }
+
+  figure {
+    margin: $gutter*2 auto;
+  }
+
+  figcaption {
+    @extend .scale--4;
+    font-size: .833em;
+    color: darken($gray, 30%);
+    font-style: italic;
+  }
 }
