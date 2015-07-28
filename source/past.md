@@ -15,10 +15,55 @@ In math class, I spent weeks being lectured, and would bomb the exams. No wonder
 
 These experiences are what got me really caring about education.
 
-## Enter Software
+---
 
-My first foray into software design & development was when Cory Foy offered me a design apprenticeship with 8th Light, Inc. I spent nine months in their intensive program covering design fundamentals, front-end development, and user experience research. I also planned and hosted 8th Light University events which took place weekly, featured a speaker, and ended with an open-office, collaborative working session.
+## Software
+I was feeling frustrated by my failed attempt at higher education, so I started seeking out educational opportunities within my community: attending bootstrapper breakfasts (even though I had no idea what that meant), and Tampa.rb. There, I met Gavin Stark and Jason Perry, who told me about 8th Light's apprenticeship program.
 
-Since then, I’ve worked at Table XI and Eight Bit Studios (with some freelance consulting in between), holistically addressing design for a variety of clients: from early-stage startups to well-established organizations.
+My web design career started when Cory Foy offered me a design apprenticeship with 8th Light. If you're reading this, Cory: thanks for taking a chance on me! <3
 
-I’ve worked with clients like the Field Museum, International Housewares Association, Nielsen, and Charipick, to name a few.
+### 8th Light
+I spent nine months as Justin Herrick's apprentice in 8th Light's intensive design apprenticeship program in Tampa, Florida.
+
+My experience was pretty unique in that my mentor (Justin) wasn't a designer, but a developer. This gave me a really unique insights into the development process and an analytical bent that I still possess to this day. It also forced me to teach myself, using remote feedback
+
+I overing design fundamentals, front-end development, and user experience research. I also planned and hosted 8th Light University events which took place weekly, featured a speaker, and ended with an open-office, collaborative working session.
+
+### Freelancing
+During my time freelancing, I worked mostly to establish brand kits for small, creative businesses and Etsy merchants.
+
+I also practiced photography and did a lot of technical cooking.
+
+---
+
+## Product Design
+I'm splitting my software career into two distinct sections because during this time, I developed a better sense of how I define myself as a designer, and the role I want to fill.
+
+I decided at this point that design needed to be a holistic process, with visual design, development, strategy, and copy, working together as one.
+
+<figure>
+  <img src="/images/field.jpg">
+  <figcaption>I worked on the pattern library and front-end development for The Field Musseum.</figcaption>
+</figure>
+
+### Table XI
+I came on as a Designer at Table XI and touched a variety of projects for a variety of clients: from early-stage startups to well-established organizations. I did work mostly for museums (like the Field Museum, see figure above) and nonprofits.
+
+I did print and poster design, chalk art installations, front-end development, illustration, and UX research. I helped establish the design kickoff process which was part of Table XI's 'Inception'. I also hosted Girl Develop It Code & Coffee meetups, where I mentored some really lovely ladies.
+
+It was here I learned how to sell my designs, how to hold successful and informative design kickoffs, learned about SASS variable mapping, and about how to write *better* CSS.
+
+### Eight Bit Studios
+
+I am a product designer at Eight Bit Studios. I work on all design-related tasks: branding, copy writing, UX research, and front-end development.
+
+I still work for a variety of clients, including behemoth organizations like Nielsen and International Housewares Association all the way down to startups like Charipick (see figure).
+
+<figure class="figure--left">
+  <img src="/images/charipick.gif">
+  <figcaption>Charipick is an app that follows the dollar-a-day model.</figcaption>
+</figure>
+
+Recently, I introduced the concept of design kickoffs. I'm proud to say they're now a part of Eight Bit's client onboarding process and help clients feel more involved in the outcome of our engagement. Designing in the open is also discussed in the design kickoff: if the client is receptive to the idea of documenting and publicly sharing the design and development process in a public-facing medium, it's added to their statement of work/contract. I'm responsible for writing the blog posts.
+
+My most significant achievement has been having an apprentice. I crafted a design apprenticeship syllabus complete with assignments, weekly reading, and a scheduled 1:1. I plan to open source the syllabus soon.

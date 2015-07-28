@@ -55,3 +55,8 @@ article {
     width: 100%;
   }
 }
+
+.figure--left {
+  @extend %float--left;
+  max-width: 250px;
+}

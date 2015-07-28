@@ -3,6 +3,8 @@ title: Alejandra Luaces | About This Application
 ---
 # About This Application
 
+<img src="/images/project-sketch.jpg">
+
 I styled this application to serve as a cover letter, resume, and a narrative, rolled into a format that resembles a program syllabus.
 
 One common theme in code schools' public-facing onboarding/syllabus sites is visual inconsistency. Many of the sites are unique: created and styled by individual instructors. As such, the brand voice and tone becomes lost. What I’ve made here addresses some of that: having The Iron Yard prominently displayed as the first focal point, complete with brand colors and styling I took from your marketing site. This would make TIY teachers lives [much easier](/life-easier.html).
