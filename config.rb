@@ -44,16 +44,3 @@ helpers do
     link_to title, url, class: classes.join(' ')
   end
 end
-
-########################################################################
-# Deploy
-########################################################################
-
-require 'rack'
-require 'rack/contrib/try_static'
-
-# Serve files from the build directory
-use Rack::TryStatic,
-  root: 'build',
-  urls: %w[/],
-  try: ['.html', 'index.html', '/index.html']

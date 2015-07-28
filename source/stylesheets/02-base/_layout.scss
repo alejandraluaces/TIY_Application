@@ -7,14 +7,10 @@
   flex-align: flex-start;
 }
 
-.l--sideNav {
+.l--sideBar {
   @extend %flexboxGrid__cell;
   flex: 0 0 auto;
   order: 1;
-
-  @media screen and (max-width: 700px) {
-    max-width: 100%;
-  }
 }
 
 .l--content {
