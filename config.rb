@@ -34,9 +34,9 @@ configure :build do
 end
 
 helpers do
-  def navbar_link_to(title, url)
+  def sideNav_link_to(title, url)
     classes = ["sideNav__link"]
-    classes << "sideNav__link--current" if current_page.url == url
+    classes << "currentPage" if current_page.url == url
     link_to title, url, class: classes.join(' ')
   end
 end
