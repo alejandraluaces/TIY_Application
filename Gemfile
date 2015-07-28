@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+ruby '2.1.3'
 
 gem "builder", "~> 3.0"
 
@@ -10,5 +11,7 @@ gem 'image_optim', :git => 'git://github.com/toy/image_optim.git'
 gem 'image_optim_pack'
 gem "middleman-title"
 gem "middleman-syntax"
+
+gem 'middleman-deploy', '~> 1.0'
 
 gem "pry"
