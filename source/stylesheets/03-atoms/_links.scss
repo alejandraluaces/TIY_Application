@@ -1,15 +1,14 @@
 a {
   text-decoration: none;
-  color: inherit;
+  color: $blue--light;
 
   &:hover,
   &:active,
   &:focus {
-    @include defaultTransition;
-    color: $blue;
+    text-decoration: underline;
   }
-}
 
-.currentPage {
-  font-weight: map-get($fontWeight, bold);
+  .sideNav & {
+    color: $white;
+  }
 }
