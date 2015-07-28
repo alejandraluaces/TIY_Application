@@ -1,4 +1,5 @@
 a {
+  @include defaultTransition;
   text-decoration: none;
   color: $blue--light;
 
