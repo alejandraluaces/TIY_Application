@@ -6,9 +6,15 @@
   @extend %flexboxGrid;
 }
 
-.l--content {
+.l--sideNav {
   @extend %flexboxGrid__cell;
   flex: 0 0 auto;
+  order: 1;
+  max-width: 20em;
+
+  @media screen and (max-width: 700px) {
+    max-width: 100%;
+  }
 }
 
 .l--sideNav {

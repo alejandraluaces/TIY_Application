@@ -1,65 +1,138 @@
 // --------------------------------------------
-// ### Header
+// ### Side Navigation
 // --------------------------------------------
 
-.headerMain {
-  @extend %flexboxLayout--nav;
-  border-bottom: 1px solid $gray--light;
-  flex-shrink: 0;
-  padding: $gutter*2 $gutter;
+.sideNav {
+  @extend %flexboxGrid;
   flex-direction: column;
   align-items: center;
+  background-color: $blue--dark;
+  margin-right: $gutter*2;
+  padding: $gutter;
 
-  @media screen and (min-width: 550px) {
-    flex-direction: row;
+  @media screen and (max-width: 700px) {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  a {
+    color: $white;
   }
 }
 
-.headerName {
-  font-size: 1em;
-  font-weight: map-get($headerName, fontWeight);
+.sideNav__list {
+  @extend %flexboxGrid;
+  flex-direction: column;
   margin-bottom: 1em;
-  @media screen and (min-width: 550px) {
-    margin-bottom: 0;
+  position: static;
+
+  @media (max-width: 700px) {
+    position: absolute;
+    left: -99999em;
   }
 }
 
-.hideonmobile {
-  @media screen and (max-width: 430px) {
+.sideNav__link {
+  &.currentPage {
+    font-weight: map-get($fontWeight, bold);
+    color: $yellow;
+
+    &:after {
+      content: '\2192';
+      margin-left: .5em;
+
+      @media (max-width: 700px) {
+        display: none;
+      }
+    }
+  }
+}
+
+.sideNav__item {
+  flex: 1;
+  font-family: $sansSerif;
+  font-weight: map-get($fontWeight, light);
+  margin-bottom: .5em;
+}
+
+.sideNav__heading {
+  @extend .scale--3;
+  font-weight: map-get($fontWeight, bold);
+  margin-bottom: .5em;
+}
+
+.sideNav__mobileButton {
+  @extend .scale--2;
+  font-weight: map-get($fontWeight, bold);
+  position: absolute;
+  left: -99999em;
+  text-align: center;
+  color: $white;
+  margin: $gutter/2 auto;
+  text-transform: uppercase;
+
+  a {
+    color: $white;
+  }
+
+  @media (max-width: 700px) {
+    position: static;
+  }
+}
+
+.sideNav.open {
+
+  .sideNav__item {
+    padding-bottom: 1em;
+    background-color: $blue;
+  }
+
+  .sideNav__heading {
+    background-color: $blue--dark;
+  }
+
+  .sideNav__list {
+    left: 0;
+    width: 100%;
+    position: static;
+    margin: 0;
+    text-align: center;
+
+    .sideNav__item {
+      padding: $gutter/4 0;
+      border-bottom: 1px solid $blue--dark;
+      margin: 0;
+
+      &:last-of-type {
+        border: 0;
+      }
+    }
+  }
+}
+
+.masthead__subhead {
+  @extend .scale--6;
+  color: $white;
+  opacity: .8;
+  text-align: center;
+}
+
+.break {
+  border: 0;
+  border-bottom: 1px solid $white;
+  opacity: .3;
+  width: 10%;
+  margin: $gutter auto;
+}
+
+.information {
+  font-size: .8em;
+  color: white;
+  opacity: .7;
+
+  @media screen and (max-width: 500px) {
     display: none;
   }
 }
 
-.headerName__link {
-  color: $black;
-}
-
-// --------------------------------------------
-// ### Footer
-// --------------------------------------------
-
-.footerMain {
-  display: flex;
-  justify-content: center;
-  border-top: 1px solid $gray--light;
-  flex-shrink: 0;
-  align: center;
-  padding: $gutter*2 $gutter;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-
-  a {
-    margin-bottom: $gutter;
-  }
-}
-
-.footerText {
-  font-size: .8em;
-  color: $gray--dark;
-  line-height: 1.5;
-  text-transform: none;
-  font-weight: 200;
-  max-width: 700px;
-  margin: 0 auto 1em auto;
-}
