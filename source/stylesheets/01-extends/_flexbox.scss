@@ -4,10 +4,23 @@
 
 %flexboxGrid {
   display: flex;
+}
+
+%flexboxGrid--RtoC {
+  @extend %flexboxGrid;
   flex-direction: row;
 
-  @media screen and (min-width: 500px) {
+  @media screen and (max-width: 700px) {
     flex-direction: column;
+  }
+}
+
+%flexboxGrid--CtoR {
+  @extend %flexboxGrid;
+  flex-direction: column;
+
+  @media screen and (max-width: 700px) {
+    flex-direction: row;
   }
 }
 
