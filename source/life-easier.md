@@ -18,6 +18,4 @@ Consider these two existing repos:
 </figcaption>
 </figure>
 
-I've modeled my TIY job application (this site!) after this existing boilerplate. Teachers modify and share their unique boilerplates, which helps us learn a lot about that particular teacher! It's pretty awesome.
-
-However, in your move to make branding stronger and more consistent across your offerings, this level of customizability could
+Having a TIY-branded template for teachers to use would be awesome! Not only would it help to keep TIY's brand prominent and consistent throughout all teacher's syllabi, it would also take a lot of that extra work off their plate!

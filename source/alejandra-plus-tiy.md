@@ -10,7 +10,7 @@ Being the first designer on a product team wouldn’t be new to me. Most of my e
 ##Reputation
 
 ###You're Cool
-When my friends say something about an organization, I listen– and everyone I know who works at The Iron Yard is saying great things. From having a sense of transparency within the organization, to allowing your employees autonomy, and having everyone on the team feel unified towards a common goal.. I’m getting a lot of good vibes.
+When my friends say something about an organization, I listen&#8212;and everyone I know who works at The Iron Yard is saying great things. From having a sense of transparency within the organization, to allowing your employees autonomy, and having everyone on the team feel unified towards a common goal.. I’m getting a lot of good vibes.
 
 ###I'm Cool
 You should get a lot of good vibes from me, too! I've worked with four people that are already part of The Iron Yard team, so you'll have a bunch of first-hand accounts about what it's like to work with me.
@@ -34,6 +34,8 @@ I have what I think of as being an "amateur's mindset". I learn something new ev
 > Being an amateur harnesses the Zen notion of “beginner’s mind” — a state of openness to possibility that closes up as we get calcified in expertise.
 
 I believe an expert's mentality makes you inflexible; resistant to new knowledge or new ways of thinking.
+
+Additionally, since I work so closely with clients and have an apprentice of my own, I am always trying to improve the way I teach, sometimes through reading TIY-recommended readings like Make it Stick.
 
 ### Collaboration
 This is a follow-up to my values regarding education. The software community is made up of smart, hard-working individuals. When people of various skill levels collaborate, amazing things happen, and everyone comes away a winner.
