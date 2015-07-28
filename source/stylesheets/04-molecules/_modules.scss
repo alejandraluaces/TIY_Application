@@ -33,6 +33,7 @@
 
 .module--key {
   @extend %module;
+  margin: $gutter auto;
 }
 
 .module--key__heading {
