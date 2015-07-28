@@ -12,6 +12,7 @@ article {
 
   h2 {
     @extend .scale--2;
+    margin-bottom: .25em;
   }
 
   h3 {
@@ -29,6 +30,6 @@ article {
   p {
     @extend .scale--4;
     line-height: 1.6;
-    margin-bottom: 1.44em;
+    margin-bottom: 1em;
   }
 }
