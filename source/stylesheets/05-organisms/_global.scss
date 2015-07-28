@@ -7,7 +7,6 @@
   flex-direction: column;
   align-items: center;
   background-color: $blue--dark;
-  margin-right: $gutter*2;
   padding: $gutter*2;
 
   @media screen and (max-width: 700px) {
@@ -130,16 +129,7 @@
   margin: $gutter auto;
 }
 
-.information {
-  font-size: .8em;
-  color: white;
-  opacity: .7;
-
-  @media screen and (max-width: 500px) {
-    display: none;
-  }
-}
-
-%footer {
-  background-color: gray;
+.footerMain {
+  background-color: $gray;
+  width: 100%;
 }
