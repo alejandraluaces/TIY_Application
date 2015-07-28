@@ -1,0 +1,29 @@
+article {
+
+  h1 {
+    @extend .scale--1;
+    margin-bottom: .579em;
+  }
+
+  h2 {
+    @extend .scale--2;
+  }
+
+  h3 {
+    @extend .scale--3;
+  }
+
+  h4 {
+    @extend .scale--4;
+  }
+
+  h5 {
+    @extend .scale--5;
+  }
+
+  p {
+    @extend .scale--4;
+    line-height: 1.6;
+    margin-bottom: 1.44em;
+  }
+}
