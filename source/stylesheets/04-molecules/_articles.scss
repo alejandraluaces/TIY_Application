@@ -32,4 +32,11 @@ article {
     line-height: 1.6;
     margin-bottom: 1em;
   }
+
+  blockquote {
+    @extend .scale--4;
+    font-size: 1.25em;
+    margin-left: 1em;
+    font-style: italic;
+  }
 }
