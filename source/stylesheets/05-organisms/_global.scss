@@ -123,10 +123,18 @@
 
 .break {
   border: 0;
-  border-bottom: 1px solid $white;
-  opacity: .3;
+  border-bottom: 1px solid;
   width: 10%;
   margin: $gutter auto;
+
+  .sidebar & {
+    border-color: $white;
+    opacity: .3;
+  }
+
+  article & {
+    border-color: $blue;
+  }
 }
 
 .footerMain {
