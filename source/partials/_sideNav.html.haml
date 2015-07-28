@@ -1,13 +1,34 @@
-%a{:href => "/", class: "headerName__link"}
-  %h1.headerName Alejandra Luaces
+.masthead
+  %a{:href => "/", class: "sideNav__link"}
+    .logo
+      %h1.visuallyhidden The Iron Yard
+  %h2.masthead__subhead Design Application
+  %hr.break
 
-%nav.navHeader
-  %ul.navHeader__list
-    %li.navHeader__item
-      = navbar_link_to "Writing", "/writing/"
-    %li.navHeader__item
-      = navbar_link_to "Work", "/work/"
-    %li.navHeader__item
-      = navbar_link_to "Contact", "mailto:aluacesr@gmail.com?subject=Let's Work Together!"
+%nav.sideNav
   .sideNav__mobileButton.sideNav__link
     = link_to "Menu", "#", class: "topnav__link"
+
+  %ul.sideNav__list
+    %li.sideNav__heading
+      = sideNav_link_to "Who is Alejandra?", "/"
+    %li.sideNav__item
+      = sideNav_link_to "About this Application", "/about-this-application.html"
+    %li.sideNav__item
+      = sideNav_link_to "Where I've Been", "/past.html"
+    %li.sideNav__item
+      = sideNav_link_to "Where I'm Going", "/future.html"
+
+  %ul.sideNav__list
+    %li.sideNav__heading
+      = sideNav_link_to "Alejandra + TIY = <3", "/alejandra-plus-tiy.html"
+    %li.sideNav__item
+      = sideNav_link_to "Sweet Reputation", "/reputation.html"
+    %li.sideNav__item
+      = sideNav_link_to "Shared Values", "/values.html"
+    %li.sideNav__item
+      = sideNav_link_to "Full-process design", "/full-process.html"
+
+%hr.break
+%section.information
+  %p.info__paragraph This project was made using the #{link_to 'Middleman', 'https://middlemanapp.com/'} static site generator, Tisa Pro and Open Sans fonts via #{link_to 'Typekit', 'https://typekit.com/fonts/'}, and information from #{link_to 'Make It Stick', 'http://www.amazon.com/Make-It-Stick-Successful-Learning/dp/0674729013'}.
