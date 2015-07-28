@@ -1,4 +1,8 @@
 article {
+  margin: 0 auto;
+  max-width: 50em;
+
+  @extend %group;
 
   h1 {
     @extend .scale--1;
@@ -25,5 +29,6 @@ article {
     @extend .scale--4;
     line-height: 1.6;
     margin-bottom: 1.44em;
+    max-width: 43.75em;
   }
 }

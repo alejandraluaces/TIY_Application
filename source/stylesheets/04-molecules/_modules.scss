@@ -1,0 +1,45 @@
+%module {
+  border: 1px solid $gray;
+}
+
+.module--key {
+  @extend %module;
+}
+
+.module--bio {
+  @extend %module;
+  @extend %l--third;
+  @extend %float--left;
+  max-width: 400px;
+  min-width: 300px;
+
+  @media screen and (max-width: 1000px) {
+    float: none;
+    width: 100%;
+  }
+}
+
+.module__heading {
+
+}
+
+.module--bio__text {
+  padding: 1em;
+
+  header {
+    margin-bottom: .5em;
+  }
+}
+
+.module--bio__heading {
+  @extend .scale--3;
+}
+
+.module--bio__subhead {
+  @extend .scale--6;
+  color: darken($gray, 25%);
+}
+
+.module--bio__paragraph {
+  font-size: .833em;
+}

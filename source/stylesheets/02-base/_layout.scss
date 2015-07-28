@@ -34,8 +34,6 @@
 }
 
 .wrapper {
-  max-width: 43.75em;
-  min-width: 20em;
   padding: $gutter*2;
   margin: 0 auto;
 }
@@ -43,3 +41,12 @@
 #main {
   @extend %flexboxGrid__cell;
 }
+
+%l--third {
+  width: 33.3%;
+}
+
+%l--half {
+  width: 50%;
+}
+
