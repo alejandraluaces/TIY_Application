@@ -21,6 +21,8 @@
 }
 
 .sideNav {
+  @extend %flexboxGrid__cell;
+  flex: 2 1 auto;
   width: 100%;
 }
 
@@ -114,6 +116,11 @@
   }
 }
 
+.masthead {
+  @extend %flexboxGrid__cell;
+  flex: 0 0 auto;
+}
+
 .masthead__subhead {
   @extend .scale--6;
   color: $white;
@@ -150,4 +157,29 @@
   line-height: 1.8;
   letter-spacing: 0;
   font-size: 80%;
+}
+
+.greetings {
+  @extend %flexboxGrid__cell;
+  flex: 0 0 auto;
+
+  @media (max-width: 700px) {
+    display: none;
+  }
+}
+
+.greetings__text {
+  @extend .scale--6;
+  color: $white;
+  text-transform: none;
+  font-weight: map-get($fontWeight, light);
+}
+
+.greetings__image {
+  max-width: 100px;
+  margin: $gutter/2 auto;
+
+  img {
+    width: 100%;
+  }
 }
