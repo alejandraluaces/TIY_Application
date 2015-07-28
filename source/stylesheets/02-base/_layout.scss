@@ -15,6 +15,9 @@
 
 .l--content {
   @extend %flexboxGrid__cell;
+  @extend %flexboxGrid;
+  min-height: 100vh;
+  flex-direction: column;
   flex: 3 1 auto;
   order: 2;
   overflow: auto;
@@ -24,8 +27,18 @@
   }
 }
 
+.l--footer {
+  @extend %flexboxGrid__cell;
+  flex: 0 0 auto;
+  align-self: flex-end;
+}
+
 .wrapper {
   max-width: 43.75em;
   min-width: 20em;
   padding: $gutter;
+}
+
+#main {
+  @extend %flexboxGrid__cell;
 }
