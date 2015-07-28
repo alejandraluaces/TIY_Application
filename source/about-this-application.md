@@ -1,7 +1,6 @@
 ---
 title: Alejandra Luaces | About This Application
 ---
-
 # About This Application
 
 I styled this application to serve as a cover letter, resume, and a narrative, rolled into a format that resembles a program syllabus. Several of my friends work for various code schools and generously shared their own syllabi with me as I developed my own design apprenticeship syllabus.

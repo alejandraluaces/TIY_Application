@@ -12,12 +12,12 @@ html, body {
 
 %float--left {
   float: left;
-  margin: 0 $gutter*2 $gutter*2 0;
+  margin: 0 $gutter $gutter 0;
 }
 
 %float--right {
   float: right;
-  margin: 0 0 $gutter*2 $gutter*2;
+  margin: 0 0 $gutter $gutter;
 }
 
 // --------------------------------------------

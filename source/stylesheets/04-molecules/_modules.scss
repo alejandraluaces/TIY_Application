@@ -1,29 +1,12 @@
+// --------------------------------------------
+// ### Extends
+// --------------------------------------------
+
 %module {
   border: 1px solid $gray;
 }
 
-.module--key {
-  @extend %module;
-}
-
-.module--bio {
-  @extend %module;
-  @extend %l--third;
-  @extend %float--left;
-  max-width: 400px;
-  min-width: 300px;
-
-  @media screen and (max-width: 1000px) {
-    float: none;
-    width: 100%;
-  }
-}
-
-.module__heading {
-
-}
-
-.module--bio__text {
+%module__text {
   padding: 1em;
 
   header {
@@ -31,15 +14,72 @@
   }
 }
 
-.module--bio__heading {
+%module__heading {
   @extend .scale--3;
 }
 
-.module--bio__subhead {
+%module__subhead {
   @extend .scale--6;
   color: darken($gray, 25%);
 }
 
-.module--bio__paragraph {
+%module__paragraph {
   font-size: .833em;
+}
+
+// --------------------------------------------
+// ### Key Info
+// --------------------------------------------
+
+.module--key {
+  @extend %module;
+}
+
+.module--key__heading {
+  @extend .scale--6;
+  padding: $gutter/2;
+  background-color: $gray;
+
+  &:before {
+    content: '\261E';
+    margin-right: $gutter/2;
+  }
+}
+
+.module--key__paragraph {
+  @extend %module__paragraph;
+  margin: $gutter/2;
+}
+
+// --------------------------------------------
+// ### Bio
+// --------------------------------------------
+
+.module--bio {
+  @extend %module;
+  @extend %l--third;
+  @extend %float--left;
+  max-width: 25em;
+  min-width: 18.75em;
+
+  @media screen and (max-width: 1000px) {
+    float: none;
+    width: 100%;
+  }
+}
+
+.module--bio__text {
+  @extend %module__text;
+}
+
+.module--bio__heading {
+  @extend %module__heading;
+}
+
+.module--bio__subhead {
+  @extend %module__subhead;
+}
+
+.module--bio__paragraph {
+  @extend %module__paragraph;
 }
