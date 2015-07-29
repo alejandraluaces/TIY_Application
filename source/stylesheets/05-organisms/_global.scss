@@ -9,6 +9,10 @@
   background-color: $blue--dark;
   padding: $gutter*2;
 
+  @media screen and (max-width: 1000px) {
+    padding: $gutter;
+  }
+
   @media screen and (max-width: 700px) {
     margin: 0;
     padding: 0;
@@ -104,6 +108,7 @@
     position: static;
     margin: 0;
     text-align: center;
+    z-index: 1;
 
     .sideNav__item {
       background-color: darken($gray, 50%);
