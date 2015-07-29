@@ -1,9 +1,11 @@
 ---
 title: Alejandra Luaces | About This Application
 ---
-# About This Application
+# So, you want to work at The Iron Yard?
 
 <img src="/images/project-sketch.jpg">
+
+## About this application
 
 I styled this application to serve as a cover letter, resume, and a narrative, rolled into a format that resembles a program syllabus.
 
