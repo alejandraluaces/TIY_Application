@@ -32,7 +32,9 @@ A generalist is awesome when you're just starting to build a design team, workin
 I think it's safe to say we share a lot of the same values:
 
 ### Education
-> "Whoever is stiff and inflexible is a disciple of death. Whoever is soft and yielding is a disciple of life. The hard and stiff will be broken. The soft and supple will prevail."
+Lao Tsu once said:
+
+> &#8220;Whoever is stiff and inflexible is a disciple of death. Whoever is soft and yielding is a disciple of life. The hard and stiff will be broken. The soft and supple will prevail.&#8221;
 
 I have what I think of as being an "amateur's mindset". I learn something new every day, and welcome new knowledge. Committing to the journey of learning is the key to vitality. An expert's mentality makes you inflexible; resistant to new knowledge or new ways of thinking.
 
