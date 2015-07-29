@@ -11,6 +11,7 @@
   @extend %flexboxGrid__cell;
   flex: 0 0 20em;
   order: 1;
+  min-height: 100vh;
 
   @media screen and (max-width: 1000px) {
     flex: 0 1 15em;
@@ -45,6 +46,14 @@
   @media screen and (max-width: 700px) {
     padding: $gutter;
     margin: 0;
+  }
+}
+
+.wrapper--small {
+  padding: $gutter;
+
+  @media screen and (max-width: 700px) {
+    padding: $gutter/2;
   }
 }
 
