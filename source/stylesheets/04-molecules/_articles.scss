@@ -21,6 +21,7 @@ article {
 
   h3 {
     @extend .scale--3;
+    color: lighten($blue, 10%);
   }
 
   h4 {
