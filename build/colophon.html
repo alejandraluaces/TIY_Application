@@ -28,10 +28,12 @@
         </div>
         <ul class='sideNav__list'>
           <li class='sideNav__heading'>
-            <a class="sideNav__link" href="/">Who is Alejandra?</a>
+            <a class="sideNav__link" href="/">About this Application</a>
           </li>
-          <li class='sideNav__item'>
-            <a class="sideNav__link" href="/about-this-application.html">About this Application</a>
+        </ul>
+        <ul class='sideNav__list'>
+          <li class='sideNav__heading'>
+            <a class="sideNav__link" href="/bio.html">Who is Alejandra?</a>
           </li>
           <li class='sideNav__item'>
             <a class="sideNav__link" href="/past.html">Where I've Been</a>
@@ -45,7 +47,7 @@
         </ul>
         <ul class='sideNav__list'>
           <li class='sideNav__heading'>
-            <a class="sideNav__link" href="/alejandra-plus-tiy.html">Alejandra + TIY = <3</a>
+            <a class="sideNav__link" href="/alejandra-plus-tiy.html">Alejandra + TIY</a>
           </li>
           <li class='sideNav__item'>
             <a class="sideNav__link" href="/learning-easier.html">Make Learning Easier</a>
@@ -67,35 +69,35 @@
         <article class='wrapper'>
           <h1 id="colophon">Colophon</h1>
           
-          <h2 id="middleman">Middleman</h2>
+          <h2 id="code">Code</h2>
           
           <h3 id="build">Build</h3>
           <p>This site was created with <a href="http://middlemanapp.com">Middleman</a> static site generator.</p>
           
-          <p>HAML and SCSS were used, with Markdown for most pages.</p>
+          <p>For templating, I used Haml and Markdown (depending on page-specific content). For styles, I used Sass/SCSS.</p>
           
-          <p>I used flexbox for the layout of this page, because flexbox is seriously awesome. Most modern browsers are supported.</p>
+          <p>Flexbox is seriously awesome, so I used it for the page layout. Most modern browsers are supported, with some unsurprising IE borking.</p>
           
-          <p>Another cool thing I used was clip-path to 'cut out' my image in the bio module on the first page. It's just an alternative to using a transparent .png to achieve the shape, like TIY does on its homepage.</p>
-          
-          <h4 id="naming-conventions">Naming Conventions</h4>
-          
-          <p>I name things how I've found they most make sense, using a combination of BEM &amp; SMACSS conventions.</p>
-          
-          <h4 id="organization">Organization</h4>
-          
-          <p>I use <a href="http://patternlab.io/about.html">Atomic Design</a> principles to guide the way I organize my project.</p>
+          <p>Another cool thing I used was clip-path to 'cut out' my image in the bio module on the first page. It's just an alternative to using a transparent .png to achieve the shape (like TIY does on its homepage).</p>
           
           <h3 id="deploy">Deploy</h3>
           <p>Using <a href="http://puma.io/">Puma</a> to serve files, and <a href="http://www.heroku.com">Heroku</a> to host them. I used <a href="http://jordanelver.co.uk/blog/2014/02/17/how-i-deployed-middleman-to-heroku/">this article</a> to figure it all out.</p>
           
+          <hr />
+          
           <h2 id="styles">Styles</h2>
           
           <p>Fonts I used were those I found on The Iron Yard website; Tisa Pro and Open Sans. I tried to follow The Iron Yard's branding as closely as possible.</p>
+          
+          <hr />
+          
+          <h2 id="bugs">Bugs</h2>
+          
+          <p>There was a weird bug I encountered with flexbox, where sometimes I can scroll past the content and the site jumps repeatedly until you stop scrolling. Resizing the window or slowly trying to trigger the bug resets it. I referenced Philip Walton's <a href="https://github.com/philipwalton/flexbugs">Flexbugs</a>, but haven't come up with a solution yet. Soon.</p>
         </article>
       </div>
       <footer class='l--footer footerMain'>
-        <div class='wrapper'>
+        <div class='wrapper--small'>
           <a href="http://github.com/alejandraluaces"><svg version="1.1" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              x="0px" y="0px" width="30px" height="30px" viewBox="0 0 500 500" xml:space="preserve">
           <path class="icon" d="M203.9,217.6c0,17.3-14,31.4-31.4,31.4s-31.4-14-31.4-31.4s14-31.4,31.4-31.4S203.9,200.3,203.9,217.6z
