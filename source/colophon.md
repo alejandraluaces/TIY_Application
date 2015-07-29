@@ -3,7 +3,7 @@
 ## Code
 
 ### Build
-This site was created with [Middleman](http://middlemanapp.com) static site generator.
+This site was created with [Middleman](http://middlemanapp.com) static site generator. You can find some additional information in the [readme](https://github.com/alejandraluaces/TIY_Application) for this site.
 
 For templating, I used Haml and Markdown (depending on page-specific content). For styles, I used Sass/SCSS.
 
@@ -16,9 +16,11 @@ Using [Puma](http://puma.io/) to serve files, and [Heroku](http://www.heroku.com
 
 ---
 
-## Styles
+## Fonts & Images
 
 Fonts I used were those I found on The Iron Yard website; Tisa Pro and Open Sans. I tried to follow The Iron Yard's branding as closely as possible.
+
+Images are my own, or the property of my clients.
 
 ---
 
