@@ -57,6 +57,4 @@ It's important to establish a design foundation first: defining a strong, consis
 
 If you've read this far, awesome! You shall be rewarded with a gif.
 
-I know gifs are important to The Iron Yard, so I'll have you know that I have a `reaction gifs` folder on my desktop, full of giffy goodness. Pronounced with a hard `g`.
-
 ![Cool gif](/images/catrusii.gif)
