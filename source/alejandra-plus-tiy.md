@@ -13,7 +13,9 @@ Being the first designer on a product team wouldn’t be new to me. Most of my e
 When my friends say something about an organization, I listen&#8212;and everyone I know who works at The Iron Yard is saying great things. From having a sense of transparency within the organization, to allowing your employees autonomy, and having everyone on the team feel unified towards a common goal.. I’m getting a lot of good vibes.
 
 ###I'm Cool
-You should get a lot of good vibes from me, too! I've worked with four people that are already part of The Iron Yard team, so you'll have a bunch of first-hand accounts about what it's like to work with me.
+You should get a lot of good vibes from me, too! I'm resourceful and dedicated. I value humility before intelligence. I love collaborating, though I would describe myself as being a supermotivated self-starter.
+
+Don't take it from me, though: I've worked with a few awesome people that are already part of The Iron Yard team, so you'll have a bunch of first-hand accounts about what it's *really* like to work with me.
 
 ##Full-Process Design
 I am a generalist. I really enjoy being the first designer on a product, and love being able to contribute to the overall design vision through my abilities. I also really love [standing behind](https://medium.com/@alejandraluaces/we-don-t-need-more-negativity-bfaaaeb81073) the benefit of having a wide skillset.
@@ -48,5 +50,7 @@ When you have a stable, cohesive message, visual design naturally follows.
 ### Gifs
 
 If you've read this far, awesome! You shall be rewarded with a gif.
+
+I know gifs are important to The Iron Yard, so I'll have you know that I have a `reaction gifs` folder on my desktop, full of giffy goodness. Pronounced with a hard `g`.
 
 ![Cool gif](/images/catrusii.gif)
