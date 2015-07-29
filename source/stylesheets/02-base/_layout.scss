@@ -5,27 +5,32 @@
 .l--bodyLayout {
   @extend %flexboxGrid--RtoC;
   flex-align: flex-start;
+  min-height: 100vh;
 }
 
 .l--sideBar {
   @extend %flexboxGrid__cell;
-  flex: 0 0 20em;
+  flex: 0 0 auto;
   order: 1;
-  min-height: 100vh;
+  overflow: hidden;
 
   @media screen and (max-width: 1000px) {
-    flex: 0 1 15em;
+    flex: 0 1 auto;
+  }
+
+  @media screen and (max-width: 700px) {
+    overflow: visible;
   }
 }
 
 .l--content {
   @extend %flexboxGrid__cell;
   @extend %flexboxGrid;
-  min-height: 100vh;
   flex-direction: column;
-  flex: 3 1 auto;
   order: 2;
-  overflow: auto;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  min-height: 0px;
 
   @media screen and (max-width: 700px) {
     overflow: visible;
