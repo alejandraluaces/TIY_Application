@@ -43,7 +43,7 @@ I decided at this point that design needed to be a holistic process, with visual
 
 <figure>
   <img src="/images/field.jpg">
-  <figcaption>I worked on the pattern library and front-end development for The Field Musseum.</figcaption>
+  <figcaption>I worked on the pattern library and front-end development for The Field Museum.</figcaption>
 </figure>
 
 ### Table XI
