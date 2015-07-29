@@ -96,6 +96,10 @@
   .sideNav__item {
     margin: 0;
     padding: .694em 0;
+
+    @media screen and (max-width: 400px) {
+      padding: .3em 0;
+    }
   }
 
   .sideNav__heading {
@@ -123,7 +127,7 @@
 
 .masthead {
   @extend %flexboxGrid__cell;
-  flex: 0 0 auto;
+  flex: 0 1 auto;
 }
 
 .masthead__subhead {
@@ -131,6 +135,7 @@
   color: $white;
   opacity: .8;
   text-align: center;
+  margin: 0;
 }
 
 hr {
@@ -138,6 +143,10 @@ hr {
   border-bottom: 1px solid;
   width: 10%;
   margin: $gutter auto;
+
+  @media screen and (max-width: 400px) {
+    margin-bottom: 0;
+  }
 
   .sidebar & {
     border-color: $white;
