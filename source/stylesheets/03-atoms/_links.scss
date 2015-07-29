@@ -7,10 +7,14 @@ a {
   &:active,
   &:focus {
     text-decoration: underline;
+
+    .sideBar & {
+      text-decoration: none;
+      color: lighten($blue--light, 40%);
+    }
   }
 
   .sideBar & {
     color: $white;
-    text-decoration: none;
   }
 }
