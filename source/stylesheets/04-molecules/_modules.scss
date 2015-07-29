@@ -36,6 +36,17 @@
   margin: $gutter auto;
 }
 
+.module--key--intro {
+  @extend .module--key;
+  width: 70%;
+  margin: $gutter 0;
+
+  @media screen and (max-width: 1000px) {
+    float: none;
+    margin: $gutter auto;
+  }
+}
+
 .module--key__heading {
   @extend .scale--6;
   padding: $gutter/2;
@@ -59,7 +70,8 @@
 .module--bio {
   @extend %module;
   @extend %l--third;
-  @extend %float--left;
+  @extend %float--right;
+  margin-right: -10em;
   max-width: 25em;
   min-width: 18.75em;
 

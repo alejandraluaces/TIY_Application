@@ -17,5 +17,7 @@ At my next job, I really want to be able establish or maintain style guides/patt
 
 Such tools help maintain consistent branding, while their dynamic nature allows for evolution. It helps make code easier to maintain, and ensures the overarching brand doesn't get lost.
 
+It also saves time. And time is money.
+
 ## Culture
 Other nice-to-haves would be: values alignment amongst all employees, diverse or actively working toward diversity, and the possibility of remote work. Respect of work/life balance would be nice, too, although I'm okay with working late when crucial to the success of the project.
