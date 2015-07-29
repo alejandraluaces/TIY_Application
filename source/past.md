@@ -9,25 +9,25 @@ Let’s take a step back for a second, before software. I tried my hand at getti
 
 ### Why it matters
 
-Through zookeeping I learned a lot about learning. I observed that I could retain and recall with a much higher rate of success by practically applying when I learned immediately after I learned it.
+During collge, I learned a lot about learning. I noticed that in my zoo classes, I was able to retain and recall information with a much higher rate of success by practically applying when I learned immediately after I learned it.
 
-In math class, I spent weeks being lectured, and would bomb the exams. No wonder.
+In math class, I spent weeks being lectured without any practical application, and would bomb the exams. No wonder.
 
-These experiences are what got me really caring about education.
+These experiences are what got me really caring about our broken education system, and how humans learn.
 
 ---
 
 ## Software
-I was feeling frustrated by my failed attempt at higher education, so I started seeking out educational opportunities within my community: attending bootstrapper breakfasts (even though I had no idea what that meant), and Tampa.rb. There, I met Gavin Stark and Jason Perry, who told me about 8th Light's apprenticeship program.
+I was feeling frustrated by my failed attempt at higher education, so I started seeking out learning opportunities in my community: attending bootstrapper breakfasts (even though I had no idea what that meant at the time), and the Tampa.rb meetup. There, I met Gavin Stark and Jason Perry, who told me about 8th Light's apprenticeship program.
 
 My web design career started when Cory Foy offered me a design apprenticeship with 8th Light. If you're reading this, Cory: thanks for taking a chance on me! <3
 
 ### 8th Light
 I spent nine months as Justin Herrick's apprentice in 8th Light's intensive design apprenticeship program in Tampa, Florida.
 
-My experience was pretty unique in that my mentor (Justin) wasn't a designer, but a developer. This gave me a really unique insights into the development process and an analytical bent that I still possess to this day. It also forced me to teach myself, using remote feedback
+My experience was pretty unique in that my mentor wasn't a designer, but a developer. This gave me a really unique insights into the development process and an analytical bent that I still possess to this day. My apprenticeship was also unique in that it was remote, which forced me to teach myself, using e-mail feedback and Skype hangouts to course-correct.
 
-I overing design fundamentals, front-end development, and user experience research. I also planned and hosted 8th Light University events which took place weekly, featured a speaker, and ended with an open-office, collaborative working session.
+The program itself covered design fundamentals, front-end development, and user experience research. I also planned and hosted 8th Light University events which took place weekly, featured a speaker, and ended with an open-office, collaborative working session.
 
 ### Freelancing
 During my time freelancing, I worked mostly to establish brand kits for small, creative businesses and Etsy merchants.
@@ -37,7 +37,7 @@ I also practiced photography and did a lot of technical cooking.
 ---
 
 ## Product Design
-I'm splitting my software career into two distinct sections because during this time, I developed a better sense of how I define myself as a designer, and the role I want to fill.
+I'm splitting my software career into two distinct sections because it was during this time that I developed a better sense of how I define myself as a designer and the niche I want to fill in this industry.
 
 I decided at this point that design needed to be a holistic process, with visual design, development, strategy, and copy, working together as one.
 
