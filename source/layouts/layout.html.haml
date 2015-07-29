@@ -4,14 +4,14 @@
 
   %body.l--bodyLayout
 
-    %section.sideBar.l--sideBar
-      = partial("partials/sideNav")
+    %section.l--main
+      %section.sideBar.l--sideBar
+        = partial("partials/sideNav")
+      %section.l--content
+        #main{:role => "main"}
+          %article.wrapper
+            = yield
 
-    %section.l--content
-      #main{:role => "main"}
-        %article.wrapper
-          = yield
-
-      %footer.l--footer.footerMain
-        .wrapper--small
-          = partial("partials/footer")
+    %footer.l--footer.footerMain
+      .wrapper--small
+        = partial("partials/footer")

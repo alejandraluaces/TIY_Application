@@ -3,8 +3,8 @@
 // --------------------------------------------
 
 .l--bodyLayout {
-  @extend %flexboxGrid--RtoC;
-  flex-align: flex-start;
+  @extend %flexboxGrid;
+  flex-direction: column;
   min-height: 100vh;
 }
 
@@ -14,27 +14,20 @@
   order: 1;
   overflow: hidden;
 
-  @media screen and (max-width: 1000px) {
-    flex: 0 1 auto;
-  }
-
   @media screen and (max-width: 700px) {
     overflow: visible;
   }
 }
 
+.l--main {
+  @extend %flexboxGrid__cell;
+  @extend %flexboxGrid--RtoC;
+  flex: 1 0 auto;
+}
+
 .l--content {
   @extend %flexboxGrid__cell;
-  @extend %flexboxGrid;
-  flex-direction: column;
   order: 2;
-  flex: 1 1 auto;
-  overflow-y: auto;
-  min-height: 0px;
-
-  @media screen and (max-width: 700px) {
-    overflow: visible;
-  }
 }
 
 .l--footer {
