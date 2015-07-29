@@ -10,7 +10,7 @@ We can include repeatable modules to point out extra resources or key points to 
 
 <div class='module--key'>
   <header>
-    <div class='module--key__heading'>did you know?</div>
+    <div class='module--key__masthead'>did you know?</div>
   </header>
   <div class='module--key__paragraph'>Recalling information is one of the keys to learning! </div>
 </div>

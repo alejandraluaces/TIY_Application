@@ -27,6 +27,17 @@
   font-size: .833em;
 }
 
+%module__masthead {
+  @extend .scale--6;
+  padding: $gutter/2;
+  background-color: $gray;
+
+  &:before {
+    content: '\261E';
+    margin-right: $gutter/2;
+  }
+}
+
 // --------------------------------------------
 // ### Key Info
 // --------------------------------------------
@@ -44,18 +55,12 @@
   @media screen and (max-width: 1000px) {
     float: none;
     margin: $gutter auto;
+    width: 100%;
   }
 }
 
-.module--key__heading {
-  @extend .scale--6;
-  padding: $gutter/2;
-  background-color: $gray;
-
-  &:before {
-    content: '\261E';
-    margin-right: $gutter/2;
-  }
+.module--key__masthead {
+  @extend %module__masthead;
 }
 
 .module--key__paragraph {
@@ -78,7 +83,13 @@
   @media screen and (max-width: 1000px) {
     float: none;
     width: 100%;
+    margin: 0 auto;
+    margin-bottom: $gutter;
   }
+}
+
+.module--bio__masthead {
+  @extend %module__masthead;
 }
 
 .module--bio__text {
@@ -87,7 +98,6 @@
 
 .module--bio__heading {
   @extend %module__heading;
-  font-size: 1.75em;
 }
 
 .module--bio__subhead {

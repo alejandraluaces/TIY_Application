@@ -8,6 +8,10 @@ article {
   h1 {
     @extend .scale--1;
     margin-bottom: .579em;
+
+    @media screen and (max-width: 1000px) {
+      font-size: 1.44em;
+    }
   }
 
   h2 {
