@@ -49,7 +49,7 @@ I decided at this point that design needed to be a holistic process, with visual
 ### Table XI
 I came on as a Designer at Table XI and touched a variety of projects for a variety of clients: from early-stage startups to well-established organizations. I did work mostly for museums (like the Field Museum, see figure above) and nonprofits.
 
-I did print and poster design, chalk art installations, front-end development, illustration, and UX research. I helped establish the design kickoff process which was part of Table XI's 'Inception'. I also hosted Girl Develop It Code & Coffee meetups, where I mentored some really lovely ladies.
+I did print and poster design, chalk art installations, front-end development, illustration, and UX research. I helped establish the design kickoff process which was part of Table XI's 'Inception'. I also hosted Girl Develop It *Code & Coffee* meetups, where I mentored some really lovely ladies.
 
 It was here I learned how to sell my designs, how to hold successful and informative design kickoffs, learned about SASS variable mapping, and about how to write *better* CSS.
 

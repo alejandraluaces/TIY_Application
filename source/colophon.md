@@ -13,7 +13,7 @@ Another cool thing I used was clip-path to 'cut out' my image in the bio module 
 
 #### Naming Conventions
 
-I name things how I've found they most make sense, using a combination of BEM & SMACSS conventions.
+I name things how I've found they most make sense, using a combination of BEM and SMACSS conventions.
 
 #### Organization
 
