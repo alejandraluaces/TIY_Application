@@ -15,21 +15,8 @@ page "*", layout: "layout"
 
 activate :livereload
 
-activate :imageoptim do |options|
-  options.manifest = true
-  options.skip_missing_workers = true
-  options.verbose = false
-  options.nice = true
-  options.threads = true
-  options.image_extensions = %w(.png .jpg .gif .svg)
-  options.advpng    = { :level => 4 }
-  options.gifsicle  = { :interlace => false }
-  options.jpegoptim = { :strip => ['all'], :max_quality => 80 }
-  options.jpegtran  = { :copy_chunks => false, :progressive => true, :jpegrescan => true }
-  options.optipng   = { :level => 6, :interlace => false }
-  options.pngcrush  = { :chunks => ['alla'], :fix => false, :brute => false }
-  options.pngout    = { :copy_chunks => false, :strategy => 0 }
-  options.svgo      = {}
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-65774214-1'
 end
 
 activate :autoprefixer do |config|
