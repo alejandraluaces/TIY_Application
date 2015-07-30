@@ -16,7 +16,8 @@ article {
 
   h2 {
     @extend .scale--2;
-    margin: .579em 0;
+    margin-bottom: .25em;
+    line-height: 1em;
   }
 
   h3 {
@@ -55,10 +56,15 @@ article {
 
   img {
     width: 100%;
+    margin-bottom: $gutter;
   }
 }
 
-.figure--left {
+.figure--small {
   @extend %float--left;
-  max-width: 250px;
+  width: 40%;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
 }

@@ -15,7 +15,7 @@
 .sideNav__list {
   @extend %flexboxGrid;
   flex-direction: column;
-  margin-bottom: 1em;
+  margin-bottom: map-get($sideNav, space)*2;
   position: static;
 
   @media (max-width: 700px) {
@@ -43,13 +43,13 @@
 .sideNav__item {
   flex: 1;
   font-weight: map-get($fontWeight, light);
-  margin-bottom: map-get($sideNav, space);
+  margin-bottom: map-get($sideNav, space)/2;
 }
 
 .sideNav__heading {
   font-size: map-get($sideNav, headingSize);
   font-weight: map-get($fontWeight, bold);
-  margin-bottom: map-get($sideNav, space);
+  margin-bottom: map-get($sideNav, space)/2;
 }
 
 .sideNav__mobileButton {

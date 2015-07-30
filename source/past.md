@@ -59,7 +59,7 @@ I am a product designer at Eight Bit Studios. I work on all design-related tasks
 
 I still work for a variety of clients, including behemoth organizations like Nielsen and International Housewares Association all the way down to startups like Charipick (see figure).
 
-<figure class="figure--left">
+<figure class="figure--small">
   <img src="/images/charipick.gif">
   <figcaption>Charipick is an app that follows the dollar-a-day model.</figcaption>
 </figure>
