@@ -9,16 +9,16 @@ Let’s take a step back for a second, before software. I tried my hand at getti
 
 ### Why it matters
 
-During collge, I learned a lot about learning. I noticed that in my zoo classes, I was able to retain and recall information with a much higher rate of success by practically applying what I learned immediately after I learned it.
+During collge, I noticed that in my zoo classes, I was able to retain and recall information with a much higher rate of success by practically applying what I learned immediately after I learned it.
 
 In math class, I spent weeks being lectured without any practical application, and would bomb the exams. No wonder.
 
-These experiences are what got me really caring about our broken education system, and how humans learn.
+These experiences are what got me really caring about our broken education system, and inspired me to learn more about how humans learn.
 
 ---
 
 ## Software
-I was feeling frustrated by my failed attempt at higher education, so I started seeking out learning opportunities in my community: attending bootstrapper breakfasts (even though I had no idea what that meant at the time), and the Tampa.rb meetup. There, I met Gavin Stark and Jason Perry, who told me about 8th Light's apprenticeship program.
+I was feeling frustrated by higher education, so I started seeking out learning opportunities in my community: attending bootstrapper breakfasts (even though I had no idea what that meant at the time), and the Tampa.rb meetup. There, I met Gavin Stark and Jason Perry, who told me about 8th Light's apprenticeship program.
 
 My web design career started when Cory Foy offered me a design apprenticeship with 8th Light. If you're reading this, Cory: thanks for taking a chance on me! <3
 
