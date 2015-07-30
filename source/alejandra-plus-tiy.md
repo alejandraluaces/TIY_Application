@@ -22,9 +22,9 @@ Don't take it from me, though: I've worked with a few awesome people that are al
 ---
 
 ##Full-Process Design
-I am a generalist. I really enjoy being the first designer on a product, and love being able to give a brand a voice through my abilities. I recently read an article called [Full-Process Designer](http://fullprocessdesigner.com/). I very much identify with it.
+I am a generalist. A generalist is awesome when you're just starting to build a design team, working autonomously and sourcing specialized help when needed.
 
-A generalist is awesome when you're just starting to build a design team, working autonomously and sourcing specialized help when needed.
+I really enjoy being the first designer on a product, and love being able to give a brand a voice through my abilities. I recently read an article called [Full-Process Designer](http://fullprocessdesigner.com/). I very much identify with it.
 
 ---
 
@@ -43,7 +43,9 @@ I have what I think of as being an "amateur's mindset". I learn something new ev
 
 I'm a huge fan of Austin Kleon's writings, this quote especially!
 
-Additionally, since I work so closely with clients and have an apprentice of my own, I am always trying to improve the way I teach, sometimes through reading TIY-recommended readings like Make it Stick.
+I am really invested in the code school/apprenticeship educational model. I'm always exploring different teaching methodologies, the psychology behind learning, and ways we can help improve these experiences.
+
+Additionally, since I'm always working with clients who may be new to the software devlopment process, I've found this kind of learning to be invaluable.
 
 ### Collaboration
 This is a follow-up to my values regarding education. The software community is made up of smart, hard-working individuals. When people of various skill levels collaborate, amazing things happen, and everyone comes away a winner.
@@ -52,12 +54,11 @@ This is a follow-up to my values regarding education. The software community is 
 It's important for me to be a [positive force](https://medium.com/@alejandraluaces/we-don-t-need-more-negativity-bfaaaeb81073) in our community. I love The Iron Yard's inclusive, collaborative mentality, and that a core part of the curriculum is based around nurturing and leveraging community.
 
 ### Design
-When I'm working with a client, I keep things as low-fidelity as I can, for as long as I can. That way, we can allow the voice, tone, and visual style to evolve naturally before committing too much time to higher-fidelity assets.
+When I'm working with a client, I keep things as low-fidelity as I can, for as long as I can. That way, we can allow the voice, tone, and visual style to evolve naturally before committing too much time to higher-fidelity assets. I read [somewhere](http://blog.theironyard.com/2015/07/20/nathan-spainhour-and-the-iron-yard-brand/) that TIY values that type of process as well!
 
 It's important to establish a design foundation first: defining a strong, consistent message, and clear objectives. Visual design naturally follows.
 
 ### Gifs
-
-If you've read this far, awesome! You shall be rewarded with a gif.
+If you've read this far, congratulations! You shall be rewarded with a gif of some super cool cats:
 
 ![Cool gif](/images/catrusii.gif)

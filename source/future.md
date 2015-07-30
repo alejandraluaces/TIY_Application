@@ -15,7 +15,7 @@ Educating adults is a really unique and exciting challenge. Continuing the journ
 ## Pattern Libraries
 At my next job, I really want to be able to work on a pattern library, which is amazing, because TIY already has [a](http://masondesu.github.io/ghost-shield/) [couple](http://theironyard.com/about/brand-standards/). Unifying them would be one of the first things I'd love to help with.
 
-Having one central repository for all your brand styles helps maintain consistent branding and allows for evolution without the fear your assets will be all over the place. It helps make code easier to maintain, and ensures the overarching brand doesn't get lost.
+Having one central repository for all your brand styles helps maintain consistent branding and allows for evolution without the fear your assets will be all over the place. It helps make code easier to maintain, and ensures the company brand doesn't get lost.
 
 It also saves time. And time is money.
 

@@ -4,15 +4,6 @@ title: Alejandra Luaces | About This Application
 # About this application
 
 <img src="/images/project-sketch.jpg">
+Hello there! Thanks for taking the time to look over my application for the role of UI Designer at The Iron Yard.
 
-I styled this application to serve as a cover letter, resume, and a narrative, rolled into a format that resembles a program syllabus.
-
-One common theme in code schools' public-facing onboarding/syllabus sites is visual inconsistency.
-
-Many of the sites are unique: created and styled by individual instructors. As such, the brand voice and tone becomes lost.
-
-What I’ve made here addresses some of that: having The Iron Yard prominently displayed as the first focal point, complete with brand colors and styling I took from your marketing site. This would make TIY teachers lives [much easier](/life-easier.html).
-
-Another issue I’ve recognized is that these documents (some even hosted solely on GitHub which isn't always easily accessible) are made by developers, styled in a way other developers can understand. We easily forget most students aren't quite developers yet!
-
-I was not always a developer and it’s taken years of practice and effort to think like one. This gives me a great deal of empathy for, and understanding of, your target audience.
+I styled this application to serve as a cover letter, resume, and a narrative, rolled into a format that resembles a program syllabus. I wanted to make an Iron Yard branded syllabus-style site to demonstrate how awesome something like this could be for both students and instructors alike!
