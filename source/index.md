@@ -13,6 +13,6 @@ Many of the sites are unique: created and styled by individual instructors. As s
 
 What I’ve made here addresses some of that: having The Iron Yard prominently displayed as the first focal point, complete with brand colors and styling I took from your marketing site. This would make TIY teachers lives [much easier](/life-easier.html).
 
-Another issue I’ve recognized is that these documents (some even hosted solely on GitHub which isn't always easily accessible) are made by developers, styled in a way other developers can understand. We easily forget that these students are not yet developers!
+Another issue I’ve recognized is that these documents (some even hosted solely on GitHub which isn't always easily accessible) are made by developers, styled in a way other developers can understand. We easily forget most students aren't quite developers yet!
 
-I was not always a developer and it’s taken years of practice and effort to think like one. This gives me a great deal of empathy for, and understanding of, your client base.
+I was not always a developer and it’s taken years of practice and effort to think like one. This gives me a great deal of empathy for, and understanding of, your target audience.

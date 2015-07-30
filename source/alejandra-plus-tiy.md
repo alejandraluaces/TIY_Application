@@ -38,9 +38,10 @@ Lao Tsu once said:
 
 I have what I think of as being an "amateur's mindset". I learn something new every day, and welcome new knowledge. Committing to the journey of learning is the key to vitality. An expert's mentality makes you inflexible; resistant to new knowledge or new ways of thinking.
 
-As Austin Kleon says,
 
 > Being an amateur harnesses the Zen notion of “beginner’s mind” — a state of openness to possibility that closes up as we get calcified in expertise.
+
+I'm a huge fan of Austin Kleon's writings, this quote especially!
 
 Additionally, since I work so closely with clients and have an apprentice of my own, I am always trying to improve the way I teach, sometimes through reading TIY-recommended readings like Make it Stick.
 
