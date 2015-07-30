@@ -50,6 +50,7 @@ hr {
   .sidebar & {
     border-color: map-get($sidebar, color);
     opacity: .3;
+    margin: $gutter auto;
   }
 
   article & {

@@ -44,7 +44,9 @@
 .masthead__subhead {
   @extend .scale--6;
   color: map-get($sidebar, color);
+  font-style: italic;
   text-align: center;
+  font-weight: map-get($fontWeight, light);
 }
 
 // --------------------------------------------
