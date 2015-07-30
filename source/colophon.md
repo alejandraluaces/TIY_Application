@@ -18,7 +18,7 @@ Using [Puma](http://puma.io/) to serve files, and [Heroku](http://www.heroku.com
 
 ## Fonts & Images
 
-Fonts I used were those I found on The Iron Yard website; Tisa Pro and Open Sans. I tried to follow The Iron Yard's branding as closely as possible.
+I used fonts and styles that I got from The Iron Yard [style](http://masondesu.github.io/ghost-shield/) [guides](http://theironyard.com/about/brand-standards/).
 
 Images are my own, or the property of my clients.
 
