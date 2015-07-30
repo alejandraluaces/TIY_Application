@@ -32,10 +32,6 @@
   color: map-get($footerMain, color)
 }
 
-.footerMain__paragraph {
-  @extend .scale--6;
-}
-
 // --------------------------------------------
 // ### Masthead
 // --------------------------------------------
