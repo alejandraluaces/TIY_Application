@@ -16,6 +16,7 @@ a {
 
   .sideBar & {
     color: map-get($sidebar, color);
+    transition: none;
   }
 
   .sideNav__heading & {
