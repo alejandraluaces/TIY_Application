@@ -9,7 +9,7 @@ Let’s take a step back for a second, before software. I tried my hand at getti
 
 ### Why it matters
 
-During collge, I learned a lot about learning. I noticed that in my zoo classes, I was able to retain and recall information with a much higher rate of success by practically applying when I learned immediately after I learned it.
+During collge, I learned a lot about learning. I noticed that in my zoo classes, I was able to retain and recall information with a much higher rate of success by practically applying what I learned immediately after I learned it.
 
 In math class, I spent weeks being lectured without any practical application, and would bomb the exams. No wonder.
 
