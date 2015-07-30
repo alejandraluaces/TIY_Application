@@ -25,6 +25,7 @@
 }
 
 .sideNav__link {
+  display: block;
 
   &.currentPage {
     color: map-get($sideNav, current);
