@@ -41,7 +41,7 @@ hr {
   border: 0;
   border-bottom: map-get($borderWidth, thin) solid;
   width: 10%;
-  margin: $gutter auto;
+  margin: $gutter*2 auto;
 
   @media screen and (max-width: 400px) {
     margin-bottom: 0;
