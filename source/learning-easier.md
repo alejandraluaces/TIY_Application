@@ -14,7 +14,7 @@ We can include repeatable modules to point out extra resources or key points to 
   <header>
     <div class='module--key__masthead'>did you know?</div>
   </header>
-  <div class='module--key__paragraph'>Designing modular code in reusable pattern format</div>
+  <div class='module--key__paragraph'>Designing modular code in reusable pattern format makes it easy to grab what you need and drop it into the flow of your content!</div>
 </div>
 
 ## Been there, done that
