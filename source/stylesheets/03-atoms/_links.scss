@@ -1,7 +1,7 @@
 a {
   @include defaultTransition;
   text-decoration: none;
-  color: $blue--light;
+  color: map-get($link, default);
 
   &:hover,
   &:active,
@@ -10,11 +10,15 @@ a {
 
     .sideBar & {
       text-decoration: none;
-      color: lighten($blue--light, 40%);
+      color: map-get($sidebar, hover);
     }
   }
 
   .sideBar & {
-    color: $white;
+    color: map-get($sidebar, color);
+  }
+
+  .sideNav__heading & {
+    color: map-get($link, sideNav__heading);
   }
 }

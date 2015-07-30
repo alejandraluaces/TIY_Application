@@ -1,16 +1,16 @@
 // --------------------------------------------
-// ### Side Navigation
+// ### Sidebar
 // --------------------------------------------
 
-.sideBar {
+.sidebar {
   @extend %flexboxGrid;
   flex-direction: column;
   align-items: center;
-  background-color: $blue--dark;
-  padding: $gutter*2;
+  background-color: map-get($sidebar, bg);
+  padding: map-get($sidebar, padding);
 
   @media screen and (max-width: 1000px) {
-    padding: $gutter;
+    padding: map-get($sidebar, padding)/2;
   }
 
   @media screen and (max-width: 700px) {
@@ -20,106 +20,25 @@
   }
 }
 
-.sideNav {
-  @extend %flexboxGrid__cell;
-  flex: 2 1 auto;
+
+// --------------------------------------------
+// ### Footer
+// --------------------------------------------
+
+.footerMain {
+  background-color: map-get($footerMain, bg);
   width: 100%;
-}
-
-.sideNav__list {
-  @extend %flexboxGrid;
-  flex-direction: column;
-  margin-bottom: 1em;
-  position: static;
-
-  @media (max-width: 700px) {
-    position: absolute;
-    left: -99999em;
-  }
-}
-
-.sideNav__link {
-  &.currentPage {
-    font-weight: map-get($fontWeight, bold);
-    color: $yellow;
-
-    &:after {
-      content: '\2192';
-      margin-left: .5em;
-
-      @media (max-width: 700px) {
-        display: none;
-      }
-    }
-  }
-}
-
-.sideNav__item {
-  flex: 1;
-  font-family: $sansSerif;
-  font-weight: map-get($fontWeight, light);
-  margin-bottom: .5em;
-}
-
-.sideNav__heading {
-  @extend .scale--3;
-  font-weight: map-get($fontWeight, bold);
-  margin-bottom: .5em;
-}
-
-.sideNav__mobileButton {
-  @extend .scale--2;
-  font-weight: map-get($fontWeight, bold);
-  position: absolute;
-  left: -99999em;
   text-align: center;
-  color: $white;
-  margin: $gutter/2 auto;
-  text-transform: uppercase;
-
-  a {
-    color: $white;
-  }
-
-  @media (max-width: 700px) {
-    position: static;
-  }
+  color: map-get($footerMain, color)
 }
 
-.open {
-
-  .sideNav__heading,
-  .sideNav__item {
-    margin: 0;
-    padding: .694em 0;
-
-    @media screen and (max-width: 400px) {
-      padding: .3em 0;
-    }
-  }
-
-  .sideNav__heading {
-    background-color: darken($gray, 60%);
-  }
-
-  .sideNav__list {
-    left: 0;
-    width: 100%;
-    position: relative;
-    margin: 0;
-    text-align: center;
-    z-index: 1;
-
-    .sideNav__item {
-      background-color: darken($gray, 50%);
-      border-bottom: 1px solid $blue--dark;
-
-      &:last-of-type {
-        border: 0;
-      }
-    }
-  }
+.footerMain__paragraph {
+  @extend .scale--6;
 }
+
+// --------------------------------------------
+// ### Masthead
+// --------------------------------------------
 
 .masthead {
   @extend %flexboxGrid__cell;
@@ -128,47 +47,13 @@
 
 .masthead__subhead {
   @extend .scale--6;
-  color: $white;
-  opacity: .8;
-  text-align: center;
-  margin: 0;
-}
-
-hr {
-  border: 0;
-  border-bottom: 1px solid;
-  width: 10%;
-  margin: $gutter auto;
-
-  @media screen and (max-width: 400px) {
-    margin-bottom: 0;
-  }
-
-  .sidebar & {
-    border-color: $white;
-    opacity: .3;
-  }
-
-  article & {
-    border-color: $blue;
-    margin: $gutter*2 auto;
-  }
-}
-
-.footerMain {
-  background-color: $gray;
-  width: 100%;
+  color: map-get($sidebar, color);
   text-align: center;
 }
 
-.footerMain__paragraph {
-  @extend .scale--6;
-  text-transform: none;
-  color: lighten($gray--dark, 20%);
-  line-height: 1.8;
-  letter-spacing: 0;
-  font-size: 80%;
-}
+// --------------------------------------------
+// ### Greetings
+// --------------------------------------------
 
 .greetings {
   @extend %flexboxGrid__cell;
@@ -181,13 +66,15 @@ hr {
 
 .greetings__text {
   @extend .scale--6;
-  color: $white;
-  text-transform: none;
+  color: map-get($sidebar, color);
+  font-style: italic;
+  text-align: center;
   font-weight: map-get($fontWeight, light);
+  text-transform: none;
 }
 
 .greetings__image {
-  max-width: 100px;
+  max-width: 50px;
   margin: $gutter/2 auto;
 
   img {

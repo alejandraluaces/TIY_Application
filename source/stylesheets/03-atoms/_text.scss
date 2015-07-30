@@ -3,12 +3,12 @@
 // --------------------------------------------
 
 $sizes:
-    scale--1 2.074em    $serif        map-get($fontWeight, bold)   false
-  , scale--2 1.44em     $sansSerif    map-get($fontWeight, bold)   false
-  , scale--3 1.2em      $serif        map-get($fontWeight, bold)   false
-  , scale--4 1em        $serif        map-get($fontWeight, light)  false
-  , scale--5 1em        $sansSerif    map-get($fontWeight, light)  false
-  , scale--6 0.833em    $sansSerif    map-get($fontWeight, bold)   true;
+    scale--1 2.625em  $serif  map-get($fontWeight, bold)   false
+  , scale--2 2.125em  $serif  map-get($fontWeight, bold)   false
+  , scale--3 1.75em   $serif  map-get($fontWeight, bold)   false
+  , scale--4 1.375em  $serif  map-get($fontWeight, light)  false
+  , scale--5 1em      $serif  map-get($fontWeight, light)  false
+  , scale--6 0.81em   $serif  map-get($fontWeight, bold)   false;
 
 @each $scale in $sizes {
   .#{nth($scale, 1)} {
@@ -22,6 +22,10 @@ $sizes:
   }
 }
 
-.scale--6 {
-  letter-spacing: 1px;
+// --------------------------------------------
+// ### Paragraphs
+// --------------------------------------------
+
+p {
+  line-height: 1.6;
 }

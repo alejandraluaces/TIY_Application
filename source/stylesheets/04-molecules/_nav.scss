@@ -1,0 +1,107 @@
+// --------------------------------------------
+// ### Containers
+// --------------------------------------------
+
+.sideNav {
+  @extend %flexboxGrid__cell;
+  flex: 2 1 auto;
+  width: 100%;
+}
+
+// --------------------------------------------
+// ### Items
+// --------------------------------------------
+
+.sideNav__list {
+  @extend %flexboxGrid;
+  flex-direction: column;
+  margin-bottom: 1em;
+  position: static;
+
+  @media (max-width: 700px) {
+    position: absolute;
+    left: -99999em;
+  }
+}
+
+.sideNav__link {
+
+  &.currentPage {
+    color: map-get($sideNav, current);
+
+    &:after {
+      content: '\2192';
+      margin-left: .5em;
+
+      @media (max-width: 700px) {
+        display: none;
+      }
+    }
+  }
+}
+
+.sideNav__item {
+  flex: 1;
+  font-weight: map-get($fontWeight, light);
+  margin-bottom: map-get($sideNav, space);
+}
+
+.sideNav__heading {
+  font-size: map-get($sideNav, headingSize);
+  font-weight: map-get($fontWeight, bold);
+  margin-bottom: map-get($sideNav, space);
+}
+
+.sideNav__mobileButton {
+  @extend .scale--4;
+  font-weight: map-get($fontWeight, bold);
+  position: absolute;
+  left: -99999em;
+  text-align: center;
+  color: map-get($sidebar, color);
+  margin: map-get($sideNav, space) auto;
+
+  a {
+    color: $white;
+  }
+
+  @media (max-width: 700px) {
+    position: static;
+  }
+}
+
+.open {
+
+  .sideNav__heading,
+  .sideNav__item {
+    margin: 0;
+    padding: map-get($sideNav, space) 0;
+
+    @media screen and (max-width: 400px) {
+      padding: .3em 0;
+    }
+  }
+
+  .sideNav__heading {
+    @extend .scale--5;
+    background-color: map-get($sideNav, bg--dark);
+  }
+
+  .sideNav__list {
+    left: 0;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    z-index: 1;
+
+    .sideNav__item {
+      background-color: map-get($sideNav, bg--light);
+      border-bottom: 1px solid $brand;
+
+      &:last-of-type {
+        border: none;
+      }
+    }
+  }
+}

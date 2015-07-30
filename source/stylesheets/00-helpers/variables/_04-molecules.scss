@@ -3,11 +3,17 @@
 // --------------------------------------------
 
 $sideNav: (
-  color: $white,
-  bg: $blue--dark,
-  hover: lighten(blue, 40%)
+  current: saturate($callout, 20%),
+  space: .694em,
+  headingSize: 1.25em,
+  bg--dark: $brand,
+  bg--light: lighten($brand, 10%)
 );
 
 // --------------------------------------------
-// ### Articles
+// ### Modules
 // --------------------------------------------
+
+$module: (
+  mastheadBg: $gray--light,
+);

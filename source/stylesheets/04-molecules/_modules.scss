@@ -3,19 +3,19 @@
 // --------------------------------------------
 
 %module {
-  border: 1px solid $gray;
+  border: 1px solid darken(map-get($module, mastheadBg), 5%);
 }
 
 %module__text {
   padding: 1em;
 
   header {
-    margin-bottom: .5em;
+    margin-bottom: .579em;
   }
 }
 
 %module__heading {
-  @extend .scale--3;
+  @extend .scale--4;
 }
 
 %module__subhead {
@@ -23,14 +23,11 @@
   color: darken($gray, 25%);
 }
 
-%module__paragraph {
-  font-size: .833em;
-}
-
 %module__masthead {
   @extend .scale--6;
   padding: $gutter/2;
-  background-color: $gray;
+  background-color: map-get($module, mastheadBg);
+  text-transform: uppercase;
 
   &:before {
     content: '\261E';
@@ -52,7 +49,7 @@
   width: 70%;
   margin: $gutter 0;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 700px) {
     float: none;
     margin: $gutter auto;
     width: 100%;
@@ -64,7 +61,6 @@
 }
 
 .module--key__paragraph {
-  @extend %module__paragraph;
   margin: $gutter/2;
 }
 
@@ -76,14 +72,18 @@
   @extend %module;
   @extend %l--third;
   @extend %float--right;
-  margin-right: -10em;
+  margin-right: -30%;
   width: 40%;
 
   @media screen and (max-width: 1300px) {
-    margin-right: -6em;
+    margin-right: -15%;
   }
 
   @media screen and (max-width: 1100px) {
+    margin-right: -12%;
+  }
+
+  @media screen and (max-width: 800px) {
     float: none;
     width: 100%;
     margin: 0 auto;
@@ -105,9 +105,4 @@
 
 .module--bio__subhead {
   @extend %module__subhead;
-}
-
-.module--bio__paragraph {
-  @extend %module__paragraph;
-  font-size: .8em;
 }

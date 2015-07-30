@@ -1,8 +1,19 @@
 // --------------------------------------------
-// ### Header
+// ### Sidebar
 // --------------------------------------------
 
+$sidebar: (
+  color: $white,
+  bg: $brand,
+  padding: $gutter*2,
+  hover: lighten(map-get($link, default), 30%)
+);
 
 // --------------------------------------------
 // ### Footer
 // --------------------------------------------
+
+$footerMain: (
+  bg: $gray--light,
+  color: $brand,
+);

@@ -3,14 +3,18 @@
 // --------------------------------------------
 
 $body: (
-  color: $blue--dark,
+  color: $brand,
   fontFamily: $serif,
   fontWeight: map-get($fontWeight, light),
-  fontSize: 18px,
+  fontSize: 100%,
   bg: $white
 );
 
+// --------------------------------------------
+// ### Vanity
+// --------------------------------------------
+
 $selection: (
-  bg: transparentize($yellow, .3),
+  bg: transparentize($callout, .3),
   color: $white
 );

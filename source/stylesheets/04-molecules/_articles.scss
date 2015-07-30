@@ -16,12 +16,12 @@ article {
 
   h2 {
     @extend .scale--2;
-    margin: .5em 0;
+    margin: .579em 0;
   }
 
   h3 {
     @extend .scale--3;
-    color: lighten($blue, 10%);
+    color: $brand--light;
   }
 
   h4 {
@@ -62,8 +62,4 @@ article {
 .figure--left {
   @extend %float--left;
   max-width: 250px;
-}
-
-p {
-  line-height: 1.6;
 }
