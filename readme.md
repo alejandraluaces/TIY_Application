@@ -25,6 +25,8 @@ You can call this data within your project using something like `= article.data.
 
 ### BEM Naming Convention
 
+I use a combination of naming conventions on this site, so you could say that I use BEMSMACSSOOCSS. Ridiculous. In my opinion, BEM really lends itself to the atomic design structure and way of thinking, so I'll talk a little about that.
+
 BEM stands for `block`, `element`, `modifier`. To keep better organized and maintain more generic, reusable elements, its advisable to use BEM naming conventions. It's a wiiiiddle complicated at first so I'll try to demistify it.
 
 Really, on any site, we can define anything as a block. Say you have a sign up form that will appear different ways across your site. The basic `block` will look like this:
@@ -33,7 +35,7 @@ Really, on any site, we can define anything as a block. Say you have a sign up f
 .block {}
 ```
 
-Within that `block`, we may have a title, a form field, and a button. We use a double underscore to indicate when something is a child (or `element`): it's easy, an underscore is low, and children are mostly small. o.O Or something.
+Within that `block`, we may have a title, a form field, and a button. We use a double underscore to indicate when something is a child (or `element`). The way I remember it is that children are small. o.O Or something.
 
 ```
 .block__heading {}

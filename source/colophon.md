@@ -20,10 +20,4 @@ Using [Puma](http://puma.io/) to serve files, and [Heroku](http://www.heroku.com
 
 I used fonts and styles that I got from The Iron Yard [style](http://masondesu.github.io/ghost-shield/) [guides](http://theironyard.com/about/brand-standards/).
 
-Images are my own, or the property of my clients.
-
----
-
-## Bugs
-
-There was a weird bug I encountered with flexbox, where sometimes I can scroll past the content and the site jumps repeatedly until you stop scrolling. Resizing the window or slowly trying to trigger the bug resets it. I referenced Philip Walton's [Flexbugs](https://github.com/philipwalton/flexbugs), but haven't come up with a solution yet. Soon.
+Images are my own, or the intellectual property of my clients.

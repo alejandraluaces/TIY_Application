@@ -66,4 +66,4 @@ I still work for a variety of clients, including behemoth organizations like Nie
 
 Recently, I introduced the concept of design kickoffs. I'm proud to say they're now a part of Eight Bit's client onboarding process and help clients feel more involved in the outcome of our engagement. Designing in the open is also discussed in the design kickoff: if the client is receptive to the idea of documenting and publicly sharing the design and development process in a public-facing medium, it's added to their statement of work/contract. I'm responsible for writing the blog posts.
 
-My most significant achievement has been having an apprentice. I crafted a design apprenticeship syllabus complete with assignments, weekly reading, and a scheduled 1:1. I plan to open source the syllabus soon.
+My most significant achievement has been having an apprentice. I crafted a design apprenticeship [syllabus](https://docs.google.com/document/d/1P3tjTnPM7AmhChijMkG8r_ln4n0diAINbm_Tz4sq1zQ/edit?usp=sharing) complete with assignments, weekly reading, and a scheduled 1:1. I plan to open source the syllabus soon.

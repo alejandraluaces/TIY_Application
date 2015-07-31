@@ -6,7 +6,7 @@ $sidebar: (
   color: $white,
   bg: $brand,
   padding: $gutter*2,
-  hover: lighten(map-get($link, default), 30%)
+  hover: lighten($callout, 30%)
 );
 
 // --------------------------------------------
